@@ -1,0 +1,21 @@
+.paperopoli-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.paperino-image {
+  cursor: pointer;
+  width: 300px;
+  height: auto;
+  transition: transform 0.2s;
+}
+
+.paperino-image:hover {
+  transform: scale(1.1);
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #555;
+}

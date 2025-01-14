@@ -1,0 +1,30 @@
+.pippo-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.pippo-image {
+  width: 300px;
+  height: auto;
+  animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+a {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
